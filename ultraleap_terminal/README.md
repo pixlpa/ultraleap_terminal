@@ -1,0 +1,2 @@
+##Ultraleap Terminal
+This is a simple terminal app written in C that connects to the ultraleap tracking service and outputs palm positions and finger data. I created this as a way to explore the new LeapC SDK and understand better how to develop for it.
