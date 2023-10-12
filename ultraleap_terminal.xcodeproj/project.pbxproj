@@ -238,20 +238,40 @@
 		D83DBEA42AD06D3A0028CF66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8W43V9R538;
-				ENABLE_HARDENED_RUNTIME = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				HEADER_SEARCH_PATHS = "";
+				LD_RUNPATH_SEARCH_PATHS = "\"/Library/Application Support/Ultraleap/LeapSDK/lib\"";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"\"/Library/Application Support/Ultraleap/LeapSDK/lib/libLeapC.5.dylib\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Automatic;
+				SYSTEM_HEADER_SEARCH_PATHS = "\"/Library/Application Support/Ultraleap/LeapSDK/include\"";
 			};
 			name = Debug;
 		};
 		D83DBEA52AD06D3A0028CF66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8W43V9R538;
-				ENABLE_HARDENED_RUNTIME = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				HEADER_SEARCH_PATHS = "";
+				LD_RUNPATH_SEARCH_PATHS = "\"/Library/Application Support/Ultraleap/LeapSDK/lib\"";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"\"/Library/Application Support/Ultraleap/LeapSDK/lib/libLeapC.5.dylib\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Automatic;
+				SYSTEM_HEADER_SEARCH_PATHS = "\"/Library/Application Support/Ultraleap/LeapSDK/include\"";
 			};
 			name = Release;
 		};
